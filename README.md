@@ -3,3 +3,4 @@ A macOS Monterey **UI** patcher. It will come sometime soon. As BenSova is devel
 
 ## Ben Sova's Mini Montery Patcher
 https://github.com/BenSova/Mini-Montery-Patcher
+Thanks @BenSova
