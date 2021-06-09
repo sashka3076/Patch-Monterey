@@ -10,8 +10,12 @@ import SwiftUI
 struct ContentView: View {
     @State var progress: Int = 0
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        switch progress {
+        case 0:
+            WelcomeView(p: $progress)
+        default:
+            Text(viewErrorMessage)
+        }
     }
 }
 
@@ -21,3 +25,11 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+        
+var viewErrorMessage: String = """
+There was a view error (the progress variable being set to an illegal number). 
+Please restart the app to fix. If that doesn't work, 
+open an issue at https://github.com/Solomon-Wood/Patch-Monterey,
+Unless (of course) one is already open.
+"""
