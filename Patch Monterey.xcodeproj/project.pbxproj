@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		145EF6BC266FE5B1004A40C6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EF6BB266FE5B1004A40C6 /* WelcomeView.swift */; };
-		145EF6BE266FE99E004A40C6 /* ModernButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EF6BD266FE99E004A40C6 /* ModernButton.swift */; };
+		145EF6C02671112D004A40C6 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EF6BF2671112D004A40C6 /* DownloadView.swift */; };
+		145EF6CA26711FDF004A40C6 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EF6C926711FDF004A40C6 /* Shell.swift */; };
+		145EF6CC2675E0EE004A40C6 /* ModernButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EF6CB2675E0EE004A40C6 /* ModernButton.swift */; };
+		145EF6D02675E175004A40C6 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EF6CF2675E175004A40C6 /* StatusLabel.swift */; };
+		145EF6D22675E4EF004A40C6 /* bigsurweb in Resources */ = {isa = PBXBuildFile; fileRef = 145EF6D12675E4EF004A40C6 /* bigsurweb */; };
 		14887875266FE4EC00C0A627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14887874266FE4EC00C0A627 /* AppDelegate.swift */; };
 		14887877266FE4EC00C0A627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14887876266FE4EC00C0A627 /* ContentView.swift */; };
 		14887879266FE4F000C0A627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14887878266FE4F000C0A627 /* Assets.xcassets */; };
@@ -18,7 +22,11 @@
 
 /* Begin PBXFileReference section */
 		145EF6BB266FE5B1004A40C6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		145EF6BD266FE99E004A40C6 /* ModernButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernButton.swift; sourceTree = "<group>"; };
+		145EF6BF2671112D004A40C6 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		145EF6C926711FDF004A40C6 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		145EF6CB2675E0EE004A40C6 /* ModernButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernButton.swift; sourceTree = "<group>"; };
+		145EF6CF2675E175004A40C6 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusLabel.swift; path = "Patch Monterey/StatusLabel.swift"; sourceTree = SOURCE_ROOT; };
+		145EF6D12675E4EF004A40C6 /* bigsurweb */ = {isa = PBXFileReference; lastKnownFileType = text; path = bigsurweb; sourceTree = "<group>"; };
 		14887871266FE4EC00C0A627 /* Patch Monterey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patch Monterey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14887874266FE4EC00C0A627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14887876266FE4EC00C0A627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 		14887868266FE4EC00C0A627 = {
 			isa = PBXGroup;
 			children = (
+				145EF6D12675E4EF004A40C6 /* bigsurweb */,
 				14887873266FE4EC00C0A627 /* Patch Monterey */,
 				14887872266FE4EC00C0A627 /* Products */,
 			);
@@ -62,12 +71,15 @@
 				14887874266FE4EC00C0A627 /* AppDelegate.swift */,
 				14887876266FE4EC00C0A627 /* ContentView.swift */,
 				145EF6BB266FE5B1004A40C6 /* WelcomeView.swift */,
+				145EF6BF2671112D004A40C6 /* DownloadView.swift */,
 				14887878266FE4F000C0A627 /* Assets.xcassets */,
 				1488787D266FE4F000C0A627 /* Main.storyboard */,
 				14887880266FE4F000C0A627 /* Info.plist */,
 				14887881266FE4F000C0A627 /* Patch_Monterey.entitlements */,
 				1488787A266FE4F000C0A627 /* Preview Content */,
-				145EF6BD266FE99E004A40C6 /* ModernButton.swift */,
+				145EF6CB2675E0EE004A40C6 /* ModernButton.swift */,
+				145EF6CF2675E175004A40C6 /* StatusLabel.swift */,
+				145EF6C926711FDF004A40C6 /* Shell.swift */,
 			);
 			path = "Patch Monterey";
 			sourceTree = "<group>";
@@ -140,6 +152,7 @@
 				1488787F266FE4F000C0A627 /* Main.storyboard in Resources */,
 				1488787C266FE4F000C0A627 /* Preview Assets.xcassets in Resources */,
 				14887879266FE4F000C0A627 /* Assets.xcassets in Resources */,
+				145EF6D22675E4EF004A40C6 /* bigsurweb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,10 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145EF6CC2675E0EE004A40C6 /* ModernButton.swift in Sources */,
+				145EF6CA26711FDF004A40C6 /* Shell.swift in Sources */,
 				14887877266FE4EC00C0A627 /* ContentView.swift in Sources */,
 				145EF6BC266FE5B1004A40C6 /* WelcomeView.swift in Sources */,
-				145EF6BE266FE99E004A40C6 /* ModernButton.swift in Sources */,
+				145EF6D02675E175004A40C6 /* StatusLabel.swift in Sources */,
 				14887875266FE4EC00C0A627 /* AppDelegate.swift in Sources */,
+				145EF6C02671112D004A40C6 /* DownloadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swoodprojects.Patch-Monterey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -323,7 +339,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swoodprojects.Patch-Monterey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

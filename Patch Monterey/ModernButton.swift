@@ -14,7 +14,8 @@ struct ModernButton: View {
         Button(action: action) {
             Text(text)
                 .foregroundColor(Color.white)
-                .padding().background(RoundedRectangle(cornerSize: CGSize(width: 10, height: 10)).fill(Color.blue))
+                .padding()
+                .background(Capsule().fill(Color("MainColor")))
                 
         }
         .buttonStyle(BorderlessButtonStyle())

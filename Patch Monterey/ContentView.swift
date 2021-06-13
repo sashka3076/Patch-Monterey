@@ -10,12 +10,16 @@ import SwiftUI
 struct ContentView: View {
     @State var progress: Int = 0
     var body: some View {
-        switch progress {
-        case 0:
-            WelcomeView(p: $progress)
-        default:
-            Text(viewErrorMessage)
-        }
+        VStack {
+            switch progress {
+            case 0:
+                WelcomeView(p: $progress)
+            case 1:
+                DownloadView(p: $progress)
+            default:
+                Text(viewErrorMessage)
+            }
+        }.padding()
     }
 }
 

@@ -16,7 +16,7 @@ struct WelcomeView: View {
                 .padding()
             Text(mainText)
                 .multilineTextAlignment(.center)
-            ModernButton(text: "Continue", action: {})
+            ModernButton(text: "Continue", action: {p = 1})
         }
     }
 }
